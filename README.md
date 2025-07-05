@@ -1,12 +1,12 @@
 
-## 🚀 How It Works
+## How It Works
 
 - `http://localhost/app1/` → App 1 (Port 5000)
 - `http://localhost/app2/` → App 2 (Port 5001)
 
 NGINX acts like a **traffic controller**, routing user requests to the correct app based on the URL path.
 
-## ⚙️ How to Run This
+##  How to Run This
 
 1. Start two HTTP servers:
     ```bash
@@ -24,7 +24,7 @@ NGINX acts like a **traffic controller**, routing user requests to the correct a
     - `http://localhost/app1/`
     - `http://localhost/app2/`
 
-## 🧠 Concepts Used
+##  Concepts Used
 
 - NGINX reverse proxy
 - HTTP servers
@@ -32,7 +32,7 @@ NGINX acts like a **traffic controller**, routing user requests to the correct a
 - Git & GitHub version control
 - Markdown documentation
 
-## 🛠 Built With
+## Built With
 
 - [NGINX](https://nginx.org/)
 - [Python HTTP Server](https://docs.python.org/3/library/http.server.html)
